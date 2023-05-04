@@ -1,3 +1,3 @@
 # CCOBJPGL_ASSIGNMENT_INF222
 
-Compilation of assignments in OBJECT ORIENTED PROGRAMMING
+Compilation of assignments and exercises in OBJECT ORIENTED PROGRAMMING
