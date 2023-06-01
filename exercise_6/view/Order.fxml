@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="330.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Label layoutX="17.0" layoutY="218.0" prefHeight="21.0" prefWidth="127.0" text="Item Name">
+         <font>
+            <Font name="Monospaced Bold" size="18.0" />
+         </font>
+      </Label>
+      <Pane layoutX="4.0" layoutY="282.0" prefHeight="52.0" prefWidth="336.0">
+         <children>
+            <Pane layoutX="-13.0" layoutY="-13.0" prefHeight="52.0" prefWidth="336.0">
+               <children>
+                  <Label fx:id="name2" layoutX="25.0" layoutY="7.0" prefHeight="15.0" prefWidth="110.0" text="Ceiling Lamp">
+                     <font>
+                        <Font name="Monospaced Italic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="finalamount2" layoutX="279.0" layoutY="9.0" prefHeight="16.0" prefWidth="34.0" text="0">
+                     <font>
+                        <Font name="Arial Italic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="qty2" layoutX="187.0" layoutY="8.0" prefHeight="16.0" prefWidth="70.0" text="0">
+                     <font>
+                        <Font name="Arial Italic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="qty3" layoutX="185.0" layoutY="36.0" prefHeight="15.0" prefWidth="110.0" text="0">
+                     <font>
+                        <Font name="Arial Italic" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="finalamount3" layoutX="278.0" layoutY="36.0" prefHeight="16.0" prefWidth="56.0" text="0">
+                     <font>
+                        <Font name="Arial Italic" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="-20.0" layoutY="381.0" prefHeight="43.0" prefWidth="336.0">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="182.0" layoutX="99.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/bcode.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label layoutX="28.0" layoutY="139.0" text="'Everything is Possible if You Think in Opportunities' " textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Label>
+      <Pane layoutX="-2.0" layoutY="320.0" prefHeight="52.0" prefWidth="336.0">
+         <children>
+            <Label fx:id="name3" layoutX="18.0" layoutY="-17.0" prefHeight="15.0" prefWidth="110.0" text="Wall Lamp">
+               <font>
+                  <Font name="Monospaced Italic" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="19.0" text="Total Amount:">
+               <font>
+                  <Font name="Monospaced Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="Total" layoutX="263.0" layoutY="20.0" prefHeight="15.0" prefWidth="110.0" text="0">
+               <font>
+                  <Font name="Monospaced Italic" size="17.0" />
+               </font>
+            </Label>
+            <Text fill="#0058ab" layoutX="14.0" layoutY="14.0" strokeType="OUTSIDE" strokeWidth="0.0" text="---------------------------------------------------------------" wrappingWidth="310.0078125">
+               <font>
+                  <Font name="Monospaced Regular" size="8.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Label layoutX="257.0" layoutY="219.0" prefHeight="21.0" prefWidth="127.0" text="Price">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="91.0" fitWidth="200.0" layoutX="67.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="126.0" layoutY="124.0" text="IKEA PHILIPPINES." textFill="WHITE">
+         <font>
+            <Font name="Arial Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="13.0" layoutY="113.0" prefHeight="23.0" prefWidth="306.0" text="Welcome to IKEA Philippines">
+         <font>
+            <Font name="Monospaced Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="195.0" text="Thank you for choosing IKEA!" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="218.0" prefHeight="21.0" prefWidth="127.0" text="Quantity">
+         <font>
+            <Font name="Monospaced Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="128.0" prefHeight="23.0" prefWidth="332.0" text="www.IKEA.com/Philippines">
+         <font>
+            <Font name="Monospaced Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="156.0" prefHeight="23.0" prefWidth="331.0" text="10am - 6pm Saturday and Sunday">
+         <font>
+            <Font name="Monospaced Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="142.0" prefHeight="23.0" prefWidth="330.0" text="10am - 9pm Monday to Friday">
+         <font>
+            <Font name="Monospaced Regular" size="13.0" />
+         </font>
+      </Label>
+      <Line endX="239.0" layoutX="75.0" layoutY="205.0" startX="-62.0" stroke="#0058ab" strokeWidth="2.0" />
+      <Label alignment="CENTER" layoutY="172.0" prefHeight="23.0" prefWidth="330.0" text="+639212904057" textAlignment="CENTER">
+         <font>
+            <Font name="Monospaced Regular" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="name1" layoutX="17.0" layoutY="249.0" prefHeight="15.0" prefWidth="110.0" text="Bedroom Lamp">
+         <font>
+            <Font name="Monospaced Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty1" layoutX="179.0" layoutY="251.0" prefHeight="16.0" prefWidth="59.0" text="0">
+         <font>
+            <Font name="Arial Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="finalamount1" layoutX="272.0" layoutY="250.0" prefHeight="15.0" prefWidth="110.0" text="0">
+         <font>
+            <Font name="Arial Italic" size="13.0" />
+         </font>
+      </Label>
+      <Text fill="#033c72" layoutX="69.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thanks For Purchasing!">
+         <font>
+            <Font name="Monospaced Bold Italic" size="15.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
